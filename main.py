@@ -7,8 +7,8 @@ from mysql.connector import errorcode
 
 bot = telebot.TeleBot("1173396580:AAEnKg7crQ5jyjIxYMku_g491BBfw06YwM4")
 
-TOKEN = os.environ['TOKEN']  # Берем токен из переменной окружения, которую добавили ранее
-WEBHOOK_HOST = 'https://coursera_alf_bot.herokuapp.com'  # Здесь указываем https://<название_приложения>.herokuapp.com
+TOKEN = "1173396580:AAEnKg7crQ5jyjIxYMku_g491BBfw06YwM4"  # Берем токен из переменной окружения, которую добавили ранее
+WEBHOOK_HOST = 'https://courseraalfbot.herokuapp.com'  # Здесь указываем https://<название_приложения>.herokuapp.com
 WEBAPP_HOST = '0.0.0.0'  # Слушаем все подключения к нашему приложению
 WEBAPP_PORT = os.environ.get('PORT')  # тк в Procfile мы указали process_type web, heroku сгенерирует нам нужный порт, его достаточно взять из переменной окружения
 
